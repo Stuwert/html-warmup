@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  width: 960px;
+}
+footer{
+  background-color: grey;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a{
+  color: lightgrey;
+  text-decoration: none;
+}
+
+footer .left{
+  left: 0;
+  position: inherit;
+}
+
+footer .right{
+  right: 0;
+  position: inherit;
+}
+
+ul{
+  list-style: none;
+  display: inline;
+  padding: 1em;
+  overflow: auto;
+}
+
+li{
+  float: left;
+  margin-right: 1em;
+}
